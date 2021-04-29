@@ -6,7 +6,6 @@
 	<link rel="icon" type="image/png" href="images/favicon-small.png" sizes="16x16">
 	<link rel="icon" type="image/png" href="images/favicon-large.png" sizes="32x32">
 	<title>Graphs DB</title>
-	<link rel="stylesheet" href="https://btn.ninja/css/bootstrap.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
@@ -27,19 +26,15 @@
 				</div>
 				<h1 class="pt-5">Find & discover scholarly literature with a new experience.</h1>
 				<div class="form-group form-search py-4 my-3">
-					<div class="dropdown">
-						<span class="fa fa-search form-icon"></span>
-						<input type="text" class="jAuto form-control" 
-						placeholder="Search person, article, journal..." autocomplete="off">
-						<div class="dropdown-menu">
-							<i class="hasNoResults">No matching results</i>
+					<span class="fa fa-search form-icon"></span>
+					<input type="text" class="form-control" placeholder="Search person, article, journal...">
+					<div class="search-dropdown">
 							<div class="list-autocomplete">
-								<button type="button" class="dropdown-item">23 results in Person</button>
-								<button type="button" class="dropdown-item">145 results in Article</button>
-								<button type="button" class="dropdown-item">0 results in Journal</button>
+								<button type="button" class="dropdown-item"><em>23</em> results in <em>Person</em></button>
+								<button type="button" class="dropdown-item"><em>145</em> results in <em>Article</em></button>
+								<button type="button" class="dropdown-item"><em>0</em> results in <em>Journal</em></button>
 							</div>
 						</div>
-					</div>
 				</div>
 				<h2>Explore</h2>
 				<div class="row pb-3">
@@ -74,6 +69,5 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/search.js"></script>
 </body>
 </html>
